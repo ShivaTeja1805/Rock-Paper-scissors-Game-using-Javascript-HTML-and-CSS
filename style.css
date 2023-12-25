@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    text-align: center;
+    padding: 2vmin;
+    font-size: 8vmin;
+}
+
+.choices{
+    /* height: 70vmin; */
+    padding-top: 10vmin;
+    display: flex;
+    justify-content: center;
+    gap: 5vmin;
+    /* border: 3px solid black; */
+    
+}
+
+.choice{
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.choice:hover{
+    background-color: #081b31;
+    cursor: pointer;
+}
+img{
+    height: 29vmin;
+    width:29vmin; 
+    object-fit: cover;
+    border-radius: 50%;
+}
+img:hover{
+    opacity: 0.9;
+}
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 8vmin;
+    padding-top: 8vmin;
+    /* border: 2px solid black; */
+}
+
+.score-board p{
+    font-size: 4vmin;
+}
+#user-score{
+    font-size: 10vmin;
+}
+#comp-score{
+    font-size: 10vmin;
+}
+
+
+.msg-container{
+    background-color: #081b31;
+    color: white;
+    font-size: 3vmin;
+    width: 40vmin;
+    height: 9vmin;
+    border-radius: 1vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vmin;
+    margin-bottom: 2vmin;
+}
+
+
+.footer{
+    height:9vmin;
+    background-color: #081b31;
+    color: white;
+    padding-top: 1.5vmin;
+    font-size: 3vmin;
+}
+.icons{
+    margin-top: 1vmin;
+    display: flex;
+    justify-content: center;
+    gap:1vmin;
+    font-size: 2.5vmin;
+    cursor: pointer;
+}
+
+.icons a{
+    color: white;
+}
+
+/* -----------------------------------MediaQueries-------------------------------------------------------------- */
+
+@media (max-width:300px){
+    .choices{
+        padding-top: 10vmin;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vmin;
+        
+    }
+    .choice{
+        height: 40vmin;
+        width: 40vmin;
+    }
+    img{
+        height: 39vmin;
+        width:39vmin; 
+    }
+    .msg-container{
+        font-size: 3vmin;
+        width: 50vmin;
+        height: 10vmin;
+    }
+    h1{
+        padding: 3vmin;
+        font-size: 8vmin;
+    }
+    .footer{
+        height:23vmin;
+        padding-top: 1.5vmin;
+        font-size: 3vmin;
+        margin-top: 5vmin;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icons{
+        margin-top: 2vmin;
+        font-size: 5vmin;
+    }
+
+}
