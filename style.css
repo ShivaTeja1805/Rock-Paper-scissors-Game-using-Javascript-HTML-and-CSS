@@ -104,6 +104,14 @@ img:hover{
     color: white;
 }
 
+#note{
+    font-size: 4vmin;
+    margin-top: 3vmin;
+    color: red;
+    /* background-color: yellow;
+    display: inline; */
+}
+
 /* -----------------------------------MediaQueries-------------------------------------------------------------- */
 
 @media (max-width:450px){
